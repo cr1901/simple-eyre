@@ -14,5 +14,5 @@ One of the simplest error reporters one can build ontop of eyre, defining only a
 """
 
 [dependencies]
-eyre = { git = "https://github.com/cr1901/eyre", branch="must-install", version = "0.6.6", features = ["must-install"] }
+eyre = { git = "https://github.com/yaahc/eyre", version = "0.6.7", default_features = false }
 indenter = "0.3.0"
